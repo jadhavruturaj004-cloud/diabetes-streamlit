@@ -1,6 +1,6 @@
 
 import streamlit as st
-import numpy np
+import numpy as np
 import pickle
 
 # Load model
@@ -24,3 +24,4 @@ if st.button("Predict"):
         st.error("High chance of Diabetes")
     else:
         st.success("Low chance of Diabetes")
+
